@@ -1,0 +1,94 @@
+.navbar{
+    background-color: rgb(69, 82, 116);
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin: 3px 3px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.726);
+}
+.navbar .logo a{
+    color: tomato;
+    font-family: "open sans";
+    font-weight: bolder;
+    font-size: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.74);
+}
+.navbar-active a{
+    color: #ffd557;
+    font-weight: bolder;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+    font-family: "roboto mono";
+    margin-right: 30px;
+    list-style: none;
+}
+.navdiv li a:hover{
+    color: rgba(255, 255, 0, 0.753);
+}
+main{
+    margin: 15px;
+}
+h1{
+    font-family: "lexend deca";
+}
+p{
+    font-family: "open sans";
+}
+body{
+    background-color: #232832;
+    color: #919BB4;
+    margin: 0px;
+}
+.wrapper-box{
+    background-color: #555f79;
+    border-radius: 12px;
+    color: black;
+    margin: 18em 0px 0px 3em;
+    box-shadow: 5px 9px 5px rgba(0, 0, 0, 0.726);
+    display: flex;
+    align-items: center;
+}
+.wrapper-box img{
+    max-width: 220px;
+    margin: 15px 30px 15px 15px;
+    float: left;
+    padding: 12px;
+}
+.wrapper-box h2{
+    font-family: "space grotesk";
+    font-size: 30px;
+    color: #ffd557;
+}
+.text-box p{
+    background-color: #ffd557;
+    padding: 15px;
+    border-radius: 12px;
+    color: #555f79;
+    text-align: left;
+    margin-right: 12px;
+}
+.text-box .wrapper-btn{
+    display: block;
+    margin: 50px 0px 10px 0px;
+    text-decoration: none;
+    background-color: azure;
+    padding: 5px;
+    text-align: center;
+    border-radius: 12px;
+    width: 30vh;
+}
+footer{
+    margin: 300px 0px 0px 0px;
+    background-color: #222327;
+    height: 120px;
+    padding: 15px 0px 0px 5px;
+}
